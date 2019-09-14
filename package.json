@@ -1,0 +1,30 @@
+{
+  "name": "Desktop-tracker",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "elctron-builder -mwl",
+    "build:mac": "electron-builder -m",
+    "build:win": "electron-builder -w",
+    "build:linux": "electron-builder -l"
+  },
+  "repository": "git@github.com:itsUk45/Desktop-tracker",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.0.9",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0"
+  }
+}
